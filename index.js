@@ -6,7 +6,7 @@ import Switcher from "./src/Switcher";
 import SwitcherFullStrech from "./src/SwitcherFullStrech";
 import YesNoSwitch from "./src/YesNoSwitch";
 import ZeroOneSwitch from "./src/ZeroOneSwitch";
-export default {
+export {
   DarkModeSwitch,
   GradientSwitch,
   SliderSwitch,

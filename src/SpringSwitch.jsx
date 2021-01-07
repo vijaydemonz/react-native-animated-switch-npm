@@ -91,7 +91,7 @@ export default function SpringSwitch({
 
 SpringSwitch.propTypes = {
   value: PropTypes.bool.isRequired,
-  onChange: PropTypes.bool.isRequired,
+  onChange: PropTypes.func.isRequired,
   size: PropTypes.number.isRequired,
   activeColor: PropTypes.string,
   inActiveColor: PropTypes.string,

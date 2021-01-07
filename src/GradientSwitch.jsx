@@ -113,10 +113,10 @@ export default function GradientSwitch({
 }
 
 GradientSwitch.propTypes = {
-  activeGradientColors: PropTypes.string,
+  activeGradientColors: PropTypes.array,
   animationSpeed: PropTypes.string,
   elevation: PropTypes.number,
-  inActiveGradientColors: PropTypes.string,
+  inActiveGradientColors: PropTypes.array,
   knobColor: PropTypes.string,
   onChange: PropTypes.func.isRequired,
   size: PropTypes.number.isRequired,
