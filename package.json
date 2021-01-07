@@ -1,0 +1,27 @@
+{
+  "name": "react-native-animated-switch",
+  "version": "1.1.2",
+  "description": "A simple and fully customizable React Native component that implements a animated switch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vijaydemonz/AnimatedSwitchs"
+  },
+  "keywords": [
+    "react-native-componenets",
+    "switchs",
+    "animated",
+    "components",
+    "animation"
+  ],
+  "dependencies": {
+    "react-native-gesture-handler": "~1.8.0",
+    "expo-linear-gradient": "^8.4.0",
+    "@react-native-community/masked-view": "^0.1.10"
+  },
+  "author": "vijay kumar taduri",
+  "license": "MIT"
+}
