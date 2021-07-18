@@ -1,6 +1,6 @@
 {
   "name": "react-native-animated-switch",
-  "version": "1.1.4",
+  "version": "1.1.8",
   "description": "A simple and fully customizable React Native component that implements a animated switch.",
   "main": "index.js",
   "scripts": {
@@ -18,9 +18,11 @@
     "animation"
   ],
   "dependencies": {
-    "react-native-gesture-handler": "~1.8.0",
+    "@react-native-community/masked-view": "^0.1.10",
+    "expo": "^42.0.1",
     "expo-linear-gradient": "^8.4.0",
-    "@react-native-community/masked-view": "^0.1.10"
+    "react-native": "^0.64.2",
+    "react-native-gesture-handler": "~1.8.0"
   },
   "author": "vijay kumar taduri",
   "license": "MIT"
