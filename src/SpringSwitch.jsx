@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { Animated } from "react-native";
-import { TapGestureHandler } from "react-native-gesture-handler";
+import { Animated,TouchableOpacity } from "react-native";
 import PropTypes from "prop-types";
 
 export default function SpringSwitch({
@@ -79,12 +78,12 @@ export default function SpringSwitch({
   };
   return (
     <>
-      <TapGestureHandler onHandlerStateChange={(e) => onChange()}>
+        <TouchableOpacity onPress={() => onChange()}>
         <Animated.View style={styles.container}>
           <Animated.View style={styles.knobLayer} />
           <Animated.View style={styles.knob} />
         </Animated.View>
-      </TapGestureHandler>
+      </TouchableOpacity>
     </>
   );
 }
