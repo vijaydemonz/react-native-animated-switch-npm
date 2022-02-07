@@ -1,6 +1,6 @@
 {
   "name": "react-native-animated-switch",
-  "version": "1.1.8",
+  "version": "1.2.4",
   "description": "A simple and fully customizable React Native component that implements a animated switch.",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,8 @@
     "url": "https://github.com/vijaydemonz/react-native-animated-switch-npm"
   },
   "keywords": [
-    "react-native-componenets",
-    "switchs",
+    "react-native-components",
+    "switch's",
     "animated",
     "components",
     "animation"
